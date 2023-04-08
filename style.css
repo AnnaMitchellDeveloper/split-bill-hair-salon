@@ -37,7 +37,7 @@ form {
 .calculateBtn {
   background-color: #E96479;
 }
-.tip {
+#tip {
   display: none;
 }
 .showTotalAmountToPay {
@@ -54,8 +54,9 @@ form {
 .dividedBill,
 .dividedTip,
 .billAndTip {
-	color: crimson;
+	color: #820000;
 	font-size: 25px;
+	font-weight: bold;
 }
 footer p {
 	text-align: center;

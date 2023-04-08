@@ -32,11 +32,12 @@
         </span>
         <p>🤗 Did you like our service?</p>
         <button class="addTip">Add a tip!</button>
-        <select class="tip">
+        <select id="tip">
+			<option disabled>Select an option</option>
           <option value="0.30">🧡 Wow! 30%</option>
           <option value="0.20">😊 Good service! 20%</option>
           <option value="0.10">🙂 It was ok! 10%</option>
-          <option value="0.00">🙅‍♀️ No tip!</option>
+          <option value="0.00" selected>🙅‍♀️ No tip!</option>
         </select>
         <button class="calculateBtn">Calculate</button>
       </form>
@@ -48,13 +49,13 @@
           <span>$ per person</span>
         </div>
         <div class="totalTip">
-          <p>Bill</p>
+          <p>Tip</p>
           <span>💲</span>
           <span class="dividedTip"></span>
           <span>$ per person</span>
         </div>
         <div class="totalAmount">
-          <p>Bill</p>
+          <p>Total</p>
           <span>💲</span>
           <span class="billAndTip"></span>
           <span>$ per person</span>
