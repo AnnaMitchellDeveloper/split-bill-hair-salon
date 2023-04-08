@@ -1,8 +1,63 @@
 body {
-	background-image: url(bg-picture.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 100vh;
-	font-family: 'Raleway', sans-serif;
+  background-image: url(bg-picture.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #cc6b00;
+}
+input,
+button {
+  font-size: 20px;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  background-color: black;
+  color: white;
+  width: 600px;
+  padding: 0 20px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-size: 20px;
+  opacity: 0.8;
+  border: 5px solid #E96479;
+}
+.addTip {
+  background-color: #E7B10A;
+}
+.calculateBtn {
+  background-color: #E96479;
+}
+.tip {
+  display: none;
+}
+.showTotalAmountToPay {
+  display: flex;
+}
+.billSplit,
+.totalTip,
+.totalAmount {
+  background-color: #cc6b00;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.dividedBill,
+.dividedTip,
+.billAndTip {
+	color: crimson;
+	font-size: 25px;
+}
+footer p {
+	text-align: center;
+	margin-top: 90px;
 }
