@@ -19,6 +19,10 @@ form {
   display: flex;
   flex-direction: column;
 }
+footer p {
+	text-align: center;
+	margin-top: 90px;
+}
 .container {
   background-color: black;
   color: white;
@@ -58,7 +62,14 @@ form {
 	font-size: 25px;
 	font-weight: bold;
 }
-footer p {
-	text-align: center;
-	margin-top: 90px;
-}
+@media all and (max-width:800px) {
+  .container {
+    width: 400px;
+    font-size: 15px;
+  }
+  input, 
+  button {
+  font-size: 15px;
+  }
+  }
+
